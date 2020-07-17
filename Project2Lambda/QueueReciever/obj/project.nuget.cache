@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "R8QMmAKYLiJAUfW/kWOhgaXe9cog2rH7qEiQNViqGDGJoYXng9BeyvOfRV5jx5BQs3ln7QmMqj4cdrFMNK0CvA==",
+  "success": true,
+  "projectFilePath": "P:\\SchoolProjects\\CS455- Computer Networks\\Project 2\\Part2\\Project2Lambda\\QueueReciever\\QueueReciever.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\annic\\.nuget\\packages\\amazon.lambda.core\\1.1.0\\amazon.lambda.core.1.1.0.nupkg.sha512",
+    "C:\\Users\\annic\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.0.0\\amazon.lambda.serialization.systemtextjson.2.0.0.nupkg.sha512",
+    "C:\\Users\\annic\\.nuget\\packages\\amazon.lambda.sqsevents\\1.1.0\\amazon.lambda.sqsevents.1.1.0.nupkg.sha512",
+    "C:\\Users\\annic\\.nuget\\packages\\awssdk.core\\3.3.107.8\\awssdk.core.3.3.107.8.nupkg.sha512",
+    "C:\\Users\\annic\\.nuget\\packages\\awssdk.sqs\\3.3.102.123\\awssdk.sqs.3.3.102.123.nupkg.sha512",
+    "C:\\Users\\annic\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\annic\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

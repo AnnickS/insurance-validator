@@ -1,0 +1,92 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "QueueReciever/1.0.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.1.0",
+          "Amazon.Lambda.SQSEvents": "1.1.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "QueueReciever.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.0.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.1.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.SQSEvents/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.SQSEvents.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "QueueReciever/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.Core/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ueGId8b4DEHoVWkHDs3iAJH8IUSAUGu5AqkoI/Syl4RuByzik7lz9IjoImiGAlGhtsQV02MHNeTo04IFjS37gQ==",
+      "path": "amazon.lambda.core/1.1.0",
+      "hashPath": "amazon.lambda.core.1.1.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-En67XZpjBILNrLdb/7HqGtqkPjoRYDjViY4+PEn1CAe53FNStU/vbcVtDvDyvQeUnFgMui3zvMdlsjJIzBPHdQ==",
+      "path": "amazon.lambda.serialization.systemtextjson/2.0.0",
+      "hashPath": "amazon.lambda.serialization.systemtextjson.2.0.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.SQSEvents/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AD6rELASxItdSSR1Vj7X7pEE8OeGIADJkYer9dvHtXP+2NhpgFheBKj9mNt7fOEBuZLHo058TY416E9fnHRd6Q==",
+      "path": "amazon.lambda.sqsevents/1.1.0",
+      "hashPath": "amazon.lambda.sqsevents.1.1.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    }
+  }
+}

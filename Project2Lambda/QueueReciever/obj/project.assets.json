@@ -1,0 +1,324 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Amazon.Lambda.Core/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {}
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
+        }
+      },
+      "Amazon.Lambda.SQSEvents/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Amazon.Lambda.SQSEvents.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.SQSEvents.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.3.107.8": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.SQS/3.3.102.123": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.107.8, 3.4.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/AWSSDK.SQS.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.SQS.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Amazon.Lambda.Core/1.1.0": {
+      "sha512": "ueGId8b4DEHoVWkHDs3iAJH8IUSAUGu5AqkoI/Syl4RuByzik7lz9IjoImiGAlGhtsQV02MHNeTo04IFjS37gQ==",
+      "type": "package",
+      "path": "amazon.lambda.core/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.core.1.1.0.nupkg.sha512",
+        "amazon.lambda.core.nuspec",
+        "lib/netstandard1.3/Amazon.Lambda.Core.dll",
+        "lib/netstandard1.3/Amazon.Lambda.Core.xml",
+        "lib/netstandard2.0/Amazon.Lambda.Core.dll",
+        "lib/netstandard2.0/Amazon.Lambda.Core.xml"
+      ]
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.0.0": {
+      "sha512": "En67XZpjBILNrLdb/7HqGtqkPjoRYDjViY4+PEn1CAe53FNStU/vbcVtDvDyvQeUnFgMui3zvMdlsjJIzBPHdQ==",
+      "type": "package",
+      "path": "amazon.lambda.serialization.systemtextjson/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.serialization.systemtextjson.2.0.0.nupkg.sha512",
+        "amazon.lambda.serialization.systemtextjson.nuspec",
+        "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll",
+        "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.xml"
+      ]
+    },
+    "Amazon.Lambda.SQSEvents/1.1.0": {
+      "sha512": "AD6rELASxItdSSR1Vj7X7pEE8OeGIADJkYer9dvHtXP+2NhpgFheBKj9mNt7fOEBuZLHo058TY416E9fnHRd6Q==",
+      "type": "package",
+      "path": "amazon.lambda.sqsevents/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.sqsevents.1.1.0.nupkg.sha512",
+        "amazon.lambda.sqsevents.nuspec",
+        "lib/netstandard1.3/Amazon.Lambda.SQSEvents.dll",
+        "lib/netstandard1.3/Amazon.Lambda.SQSEvents.xml",
+        "lib/netstandard2.0/Amazon.Lambda.SQSEvents.dll",
+        "lib/netstandard2.0/Amazon.Lambda.SQSEvents.xml"
+      ]
+    },
+    "AWSSDK.Core/3.3.107.8": {
+      "sha512": "DyQ/q6TNvQGdsq4wUBbYdUzCh7bjPEiLsqck1AKL6djvZMLsJalHjnbAhTcuAfaoACFYqk2AqiLVo9dmC7poLg==",
+      "type": "package",
+      "path": "awssdk.core/3.3.107.8",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.3.107.8.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/MonoAndroid10/AWSSDK.Core.XML",
+        "lib/MonoAndroid10/AWSSDK.Core.dll",
+        "lib/MonoAndroid10/AWSSDK.Core.pdb",
+        "lib/MonoTouch10/AWSSDK.Core.XML",
+        "lib/MonoTouch10/AWSSDK.Core.dll",
+        "lib/Xamarin.Mac20/AWSSDK.Core.XML",
+        "lib/Xamarin.Mac20/AWSSDK.Core.dll",
+        "lib/Xamarin.iOS10/AWSSDK.Core.XML",
+        "lib/Xamarin.iOS10/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netstandard1.3/AWSSDK.Core.dll",
+        "lib/netstandard1.3/AWSSDK.Core.pdb",
+        "lib/netstandard1.3/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.XML",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.dll",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.pdb",
+        "lib/uap/AWSSDK.Core.XML",
+        "lib/uap/AWSSDK.Core.dll",
+        "lib/uap/AWSSDK.Core.pdb",
+        "lib/win8/AWSSDK.Core.XML",
+        "lib/win8/AWSSDK.Core.dll",
+        "lib/win8/AWSSDK.Core.pdb",
+        "lib/wp8/AWSSDK.Core.XML",
+        "lib/wp8/AWSSDK.Core.dll",
+        "lib/wp8/AWSSDK.Core.pdb",
+        "lib/wpa81/AWSSDK.Core.XML",
+        "lib/wpa81/AWSSDK.Core.dll",
+        "lib/wpa81/AWSSDK.Core.pdb",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.SQS/3.3.102.123": {
+      "sha512": "O6TJ4DQ7KtPjLDsOmMpykcFZ6U2tE9N0ocsac/ZKKBlLp2ZsbtrlZ0luL6kam4HmjDFdHDoGAh/ss2FZDX/eCQ==",
+      "type": "package",
+      "path": "awssdk.sqs/3.3.102.123",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.SQS.CodeAnalysis.dll",
+        "awssdk.sqs.3.3.102.123.nupkg.sha512",
+        "awssdk.sqs.nuspec",
+        "lib/MonoAndroid10/AWSSDK.SQS.XML",
+        "lib/MonoAndroid10/AWSSDK.SQS.dll",
+        "lib/MonoTouch10/AWSSDK.SQS.XML",
+        "lib/MonoTouch10/AWSSDK.SQS.dll",
+        "lib/MonoTouch10/AWSSDK.SQS.pdb",
+        "lib/Xamarin.iOS10/AWSSDK.SQS.XML",
+        "lib/Xamarin.iOS10/AWSSDK.SQS.dll",
+        "lib/net35/AWSSDK.SQS.dll",
+        "lib/net35/AWSSDK.SQS.pdb",
+        "lib/net35/AWSSDK.SQS.xml",
+        "lib/net45/AWSSDK.SQS.dll",
+        "lib/net45/AWSSDK.SQS.pdb",
+        "lib/net45/AWSSDK.SQS.xml",
+        "lib/netstandard1.3/AWSSDK.SQS.dll",
+        "lib/netstandard1.3/AWSSDK.SQS.pdb",
+        "lib/netstandard1.3/AWSSDK.SQS.xml",
+        "lib/netstandard2.0/AWSSDK.SQS.dll",
+        "lib/netstandard2.0/AWSSDK.SQS.pdb",
+        "lib/netstandard2.0/AWSSDK.SQS.xml",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.SQS.XML",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.SQS.dll",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.SQS.pdb",
+        "lib/uap/AWSSDK.SQS.XML",
+        "lib/uap/AWSSDK.SQS.dll",
+        "lib/uap/AWSSDK.SQS.pdb",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AWSSDK.SQS >= 3.3.102.123",
+      "Amazon.Lambda.Core >= 1.1.0",
+      "Amazon.Lambda.SQSEvents >= 1.1.0",
+      "Amazon.Lambda.Serialization.SystemTextJson >= 2.0.0",
+      "Newtonsoft.Json >= 12.0.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\annic\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "P:\\SchoolProjects\\CS455- Computer Networks\\Project 2\\Part2\\Project2Lambda\\QueueReciever\\QueueReciever.csproj",
+      "projectName": "QueueReciever",
+      "projectPath": "P:\\SchoolProjects\\CS455- Computer Networks\\Project 2\\Part2\\Project2Lambda\\QueueReciever\\QueueReciever.csproj",
+      "packagesPath": "C:\\Users\\annic\\.nuget\\packages\\",
+      "outputPath": "P:\\SchoolProjects\\CS455- Computer Networks\\Project 2\\Part2\\Project2Lambda\\QueueReciever\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\annic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "AWSSDK.SQS": {
+            "target": "Package",
+            "version": "[3.3.102.123, )"
+          },
+          "Amazon.Lambda.Core": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "Amazon.Lambda.SQSEvents": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "Amazon.Lambda.Serialization.SystemTextJson": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.2, 3.1.2]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

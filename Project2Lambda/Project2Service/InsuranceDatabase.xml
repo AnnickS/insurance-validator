@@ -1,0 +1,5 @@
+<insuranceDatabase>
+    <patient id="10001" hasInsurance="yes" />
+    <patient id="10002" hasInsurance="no" />
+    <patient id="10003" hasInsurance="yes" />
+</insuranceDatabase>
